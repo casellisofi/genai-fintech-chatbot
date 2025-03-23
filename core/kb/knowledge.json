@@ -1,0 +1,26 @@
+{
+  "tarjeta_debito": {
+    "beneficios": [
+      "Sin costo de mantenimiento.",
+      "Permite realizar compras físicas y online.",
+      "Permite extracciones en cajeros automáticos sin costo adicional."
+    ],
+    "activacion": "Se activa desde nuestra app móvil siguiendo las instrucciones enviadas por correo electrónico."
+  },
+  "tarjeta_credito": {
+    "condiciones": [
+      "El límite de crédito se asigna según tu perfil financiero.",
+      "Acumulación de puntos por consumo en el programa de beneficios.",
+      "Descuentos en comercios adheridos."
+    ],
+    "aumento_limite": "Puede solicitarse desde la app. La aprobación está sujeta a evaluación crediticia."
+  },
+  "prestamos": {
+    "requisitos": [
+      "DNI vigente.",
+      "Comprobante de ingresos.",
+      "Buen historial crediticio."
+    ],
+    "simulacion": "Puede hacerse desde la app o el portal web accediendo a la sección 'Préstamos'."
+  }
+}
