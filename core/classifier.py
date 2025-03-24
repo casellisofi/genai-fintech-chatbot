@@ -1,3 +1,10 @@
+# -----------------------------------------------------------------------------------
+# CLASSIFIER MODULE
+# -----------------------------------------------------------------------------------
+# Clasificador básico para identificar si un mensaje es saludo, despedida o categoría temática.
+# -----------------------------------------------------------------------------------
+
+
 def is_greeting(text: str) -> bool:
     greetings = ["hola", "buenas", "buenos días", "buenas tardes", "buenas noches", "hola como estas"]
     return text.strip().lower() in greetings

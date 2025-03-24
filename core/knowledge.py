@@ -1,3 +1,9 @@
+# -----------------------------------------------------------------------------------
+# KNOWLEDGE MODULE
+# -----------------------------------------------------------------------------------
+# Manejo de la base de conocimiento cargada desde un archivo JSON.
+# -----------------------------------------------------------------------------------
+
 from utils.json_loader import load_json
 from pathlib import Path
 

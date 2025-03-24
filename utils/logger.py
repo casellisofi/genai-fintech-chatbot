@@ -1,3 +1,9 @@
+# -----------------------------------------------------------------------------------
+# LOGGER MODULE
+# -----------------------------------------------------------------------------------
+# Registro estructurado de las interacciones del asistente para métricas y evaluación.
+# -----------------------------------------------------------------------------------
+
 import json
 from datetime import datetime
 from pathlib import Path
