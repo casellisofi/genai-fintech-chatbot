@@ -3,19 +3,60 @@
   "examples": [
     {
       "user": "Hola",
-      "assistant": "¡Hola! ¿En qué puedo ayudarte hoy? Podés preguntarme sobre tarjetas de débito, crédito o préstamos."
+      "assistant": {
+        "thoughts": "",
+        "final_answer":"¡Hola! ¿En qué puedo ayudarte hoy? Podés preguntarme sobre tarjetas de débito, crédito o préstamos."
+
+        }  
     },
     {
       "user": "Acabo de recibir mi tarjeta de débito y no sé cómo activarla.",
-      "assistant": "¡Hola! Para activar tu tarjeta de débito, ingresá a nuestra app y seguí las instrucciones enviadas por correo. ¿Necesitás ayuda con algo más?"
+      "assistant": {
+        "thoughts": "1. Es una consulta sobre tarjeta de débito.\n2. La activación se hace desde la app móvil, siguiendo instrucciones enviadas por correo electrónico.\n3. Procedo a integrar esa información en una respuesta clara.",
+        "final_answer": "¡Hola! Para activar tu tarjeta de débito, ingresá a nuestra app y seguí las instrucciones enviadas por correo. ¿Necesitás ayuda con algo más?"
+      }
     },
     {
       "user": "¿Qué requisitos necesito para pedir un préstamo?",
-      "assistant": "¡Hola! Para solicitar un préstamo, necesitás tener DNI vigente, comprobante de ingresos y un buen historial crediticio. Podés simular tu préstamo desde nuestra app y ver las condiciones antes de avanzar."
+      "assistant": {
+        "thoughts": "1. Es una consulta sobre préstamo.\n2. Los requisitos básicos incluyen DNI, comprobante de ingresos y buen historial crediticio.\n3. Integro esta información de manera clara para el cliente.",
+        "final_answer": "¡Hola! Para solicitar un préstamo, necesitás tener DNI vigente, comprobante de ingresos y un buen historial crediticio. Podés simular tu préstamo desde nuestra app y ver las condiciones antes de avanzar."
+      }
     },
     {
       "user": "Estoy evaluando adquirir una tarjeta de crédito, pero tengo dudas sobre sus condiciones y límites.",
-      "assistant": "🤔 Razonamiento Interno:\n1. Es una consulta sobre tarjeta de crédito.\n2. Las condiciones incluyen límites según perfil financiero y beneficios como puntos o descuentos.\n3. Procedo a integrar esa información en una respuesta clara.\n\n✅ Respuesta Final:\n¡Hola! Para tu nueva tarjeta de crédito, las condiciones se establecen según tu perfil financiero, lo que determina un límite adecuado para vos. Además, esta tarjeta ofrece beneficios como acumulación de puntos y descuentos en comercios asociados. Podés revisar más detalles en la app o contactarnos si necesitás ayuda personalizada. ¿Te gustaría más información sobre algún aspecto en particular?"
+      "assistant": {
+        "thoughts": "1. Detecta que se trata de una consulta sobre tarjeta de crédito.\n2. Las condiciones incluyen límites según perfil financiero y beneficios como puntos o descuentos.\n3. Procedo a integrar esa información en una respuesta clara.",
+        "final_answer": "¡Hola! Para tu nueva tarjeta de crédito, las condiciones se establecen según tu perfil financiero, lo que determina un límite adecuado para vos. Además, esta tarjeta ofrece beneficios como acumulación de puntos y descuentos en comercios asociados. Podés revisar más detalles en la app o contactarnos si necesitás ayuda personalizada. ¿Te gustaría más información sobre algún aspecto en particular?"
+      }
+    },
+    {
+      "user": "Estoy entre sacar una tarjeta o un préstamo, pero no sé cuál me conviene.",
+      "assistant": {
+        "thoughts": "1. La consulta menciona tanto tarjeta como préstamo.\n2. Se deben contrastar ambos productos con sus características y beneficios.\n3. Ofrezco una comparación clara y opción para simular ambos desde la app.",
+        "final_answer": "¡Hola! Entiendo que estás evaluando opciones. Las tarjetas de crédito son ideales para compras y pagos en cuotas, mientras que los préstamos te ofrecen un monto fijo para necesidades específicas, con plazos y tasas definidas. Si querés, puedo ayudarte a simular ambos desde la app para que compares. ¿Te gustaría eso?"
+      }
+    },
+    {
+      "user": "No quiero una tarjeta, pero quiero saber si puedo usar una para acceder a un préstamo.",
+      "assistant": {
+        "thoughts": "1. El usuario no quiere una tarjeta pero tiene dudas sobre relación con préstamos.\n2. Aclaro que no es necesario tener tarjeta para solicitar un préstamo.\n3. Ofrezco guía adicional si necesita ayuda.",
+        "final_answer": "¡Hola! No necesitás tener una tarjeta para solicitar un préstamo. Podés acceder directamente desde nuestra app, siempre que cumplas los requisitos. ¿Querés que te cuente cuáles son?"
+      }
+    },
+    {
+      "user": "Perdí mi tarjeta y tengo miedo de que alguien la use.",
+      "assistant": {
+        "thoughts": "1. El usuario perdió su tarjeta, lo que representa una urgencia.\n2. Es clave ser empático y brindar una acción inmediata para seguridad.\n3. Explico cómo bloquear desde la app y ofrezco contacto telefónico.",
+        "final_answer": "¡Lamento mucho que estés pasando por esto! Te recomiendo bloquear la tarjeta de inmediato desde nuestra app en la sección 'Seguridad'. También podés llamarnos para asistencia urgente. ¿Querés que te pase el número?"
+      }
+    },
+    {
+      "user": "Che, ¿hasta cuánto me prestan si tengo sueldo fijo?",
+      "assistant": {
+        "thoughts": "1. Consulta informal sobre préstamo con sueldo fijo.\n2. Respondo con tono cercano pero informativo.\n3. Derivo a la simulación en app para personalización.",
+        "final_answer": "¡Hola! El monto del préstamo depende de tu perfil, pero si tenés un sueldo fijo y buen historial, podés acceder a montos más altos. Te recomiendo simularlo en la app para ver cuánto podrías obtener. ¿Te ayudo a hacerlo?"
+      }
     }
   ]
 }
