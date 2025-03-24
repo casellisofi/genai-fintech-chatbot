@@ -6,7 +6,7 @@
 
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
-def build_prompt(system_instruction: str, kb_context: str, examples: list, eval_mode: bool = False):
+def build_prompt(system_instruction: str, kb_context: str, examples: list, eval_mode: bool = True):
     reasoning_template = "Razonamiento Interno:\n{thoughts}\n\nRespuesta Final:\n{final_answer}"
     messages = [("system", f"{system_instruction}\n\n{kb_context}" if kb_context else system_instruction)]
     
