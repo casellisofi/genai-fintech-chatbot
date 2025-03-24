@@ -76,7 +76,6 @@ La app se abrirá automáticamente en tu navegador en `http://localhost:8501`.
 - Prompt dinámico basado en rol, ejemplos y razonamiento
 - Evaluación con modo razonamiento interno (CoT)
 - Clasificación automática de consultas por producto
-- Uso de conocimiento estructurado (JSON)
 - Modular y preparado para escalar con RAG o agentes
 
 ---
@@ -91,11 +90,4 @@ eval_mode=True  # en el build_prompt()
 
 ---
 
-## Evaluación
-
-El proyecto incluye:
-- Métricas automáticas vía logging
-- Checklist manual de calidad
-- Tests adversariales para alineamiento ético
-
-Más detalles en [`docs/evaluation_strategy.md`](docs/evaluation_strategy.md)
+## Tests
