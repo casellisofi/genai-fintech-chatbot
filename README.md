@@ -64,7 +64,7 @@ Esto descargará automáticamente el modelo **Mistral** si es la primera vez que
 ### 3. Iniciar la aplicación
 
 ```bash
-streamlit run core/api/main.py
+streamlit run api/main.py
 ```
 
 La app se abrirá automáticamente en tu navegador en `http://localhost:8501`.
@@ -76,13 +76,12 @@ La app se abrirá automáticamente en tu navegador en `http://localhost:8501`.
 - Prompt dinámico basado en rol, ejemplos y razonamiento
 - Evaluación con modo razonamiento interno (CoT)
 - Clasificación automática de consultas por producto
-- Modular y preparado para escalar con RAG o agentes
 
 ---
 
 ## Modo evaluación
 
-Podés ejecutar el asistente en modo evaluación para obtener reasoning + respuesta final usando:
+Podés ejecutar el asistente en modo evaluación para obtener CoT + respuesta final usando:
 
 ```python
 eval_mode=True  # en el build_prompt()
@@ -91,3 +90,8 @@ eval_mode=True  # en el build_prompt()
 ---
 
 ## Tests
+
+
+```bash
+pytest test/test_main.py
+```
